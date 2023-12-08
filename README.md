@@ -1,6 +1,6 @@
 # TorrentFinder
 
-<div style="text-align:center;">
+<div align="center">
   <img src=".github/icon.png" alt="TorrentFinder Icon" width="200" height="200">
 </div>
 
@@ -16,7 +16,7 @@ TorrentFinder is a desktop app that searches for all available torrents based on
 
 ## Preview
 
-<div style="text-align:center;">
+<div align="center">
   <img src=".github/preview.gif" alt="TorrentFinder Preview" >
 </div>
 
