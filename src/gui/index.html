@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/others.css">
+
+    <title>Torrent Finder</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="snackbar">Link copied to clipboard!</div>
+
+            <div class="header-info">
+                <h3>Torrent Finder</h3>
+                <span class="num-results">Search for a term to see the available Torrents</span>
+            </div>
+        </header>
+
+        <div class="torrents"></div>
+
+        <footer>
+            <form method="post">
+                <input type="text" placeholder="Search here..." id="term">
+                <input type="number" placeholder="Pages" id="pages">
+                <button type="submit" id="search-button">Search</button>
+            </form>
+        </footer>
+    </main>
+
+    <script src="./renderer.js"></script>
+</body>
+
+</html>

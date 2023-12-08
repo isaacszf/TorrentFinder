@@ -1,0 +1,85 @@
+.torrents {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    gap: 15px;
+
+    width: 72%;
+
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background-color: var(--input-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    padding: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border-radius: 8px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-info hr {
+    flex: 1;
+
+    border-width: 1px;
+    border-color: var(--border-color);
+
+    opacity: 0.2;
+}
+
+.status-container {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.size {
+    color: var(--paragraph-white-color);
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+}
+
+.card h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--stronger-white-color)
+}
+
+.clipboard-btn {
+    padding: 8px;
+
+    background-color: var(--button-color);
+    color: var(--stronger-white-color);
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 200ms background-color;
+}
+
+.clipboard-btn:hover {
+    background-color: var(--border-color);
+}

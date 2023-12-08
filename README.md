@@ -1,0 +1,49 @@
+# TorrentFinder
+
+<div style="text-align:center;">
+  <img src=".github/icon.png" alt="TorrentFinder Icon" width="200" height="200">
+</div>
+
+&nbsp;
+
+TorrentFinder is a desktop app that searches for all available torrents based on specific terms across various torrent sites.
+
+## Features
+
+- Search torrents on the following sites:
+  - [TPB Party](https://tpb.party/)
+  - [SolidTorrents](https://solidtorrents.to/)
+
+## Preview
+
+<div style="text-align:center;">
+  <img src=".github/preview.gif" alt="TorrentFinder Preview" >
+</div>
+
+### Usage
+- Enter the search term in the designated field.
+- Specify the number of pages to search (higher page numbers yield more results).
+- Click the search button to initiate the search process.
+- View the results and select desired torrents for downloading.
+
+## Installation
+
+### Prerequisites
+
+- Node.js installed
+- NPM package manager
+
+### Steps
+
+1. Clone the repository:
+
+  ```bash
+   git clone https://github.com/isaacszf/TorrentSearch.git
+  ```
+
+2. Run the following commands
+
+  ```bash
+    npm run build
+    npm run gui
+  ```

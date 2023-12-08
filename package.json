@@ -1,0 +1,21 @@
+{
+    "name": "torrent-search",
+    "version": "1.0.0",
+    "author": "isaacszf",
+    "license": "ISC",
+    "scripts": {
+        "deploy_windows": "electron-packager out torrent-finder --platform=win32 --arch=x64",
+        "gui": "electron out/index.js",
+        "build": "npm run clean && tsc && npm run copy_files",
+        "clean": "rimraf out/",
+        "copy_files": "copyfiles -u 1 src/**/*.css src/**/*.html out/"
+    },
+    "devDependencies": {
+        "@types/electron": "^1.6.10",
+        "copyfiles": "^2.4.1",
+        "electron": "^26.2.4",
+        "electron-packager": "^17.1.2",
+        "rimraf": "^5.0.5",
+        "typescript": "^5.2.2"
+    }
+}
