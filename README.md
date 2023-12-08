@@ -6,7 +6,9 @@
 
 &nbsp;
 
-TorrentFinder is a desktop app that searches for all available torrents based on specific terms across various torrent sites.
+<div align="center">
+  TorrentFinder is a desktop app that searches for all available torrents based on specific terms across various torrent sites.
+</div>
 
 ## Features
 
@@ -38,7 +40,7 @@ TorrentFinder is a desktop app that searches for all available torrents based on
 1. Clone the repository:
 
   ```bash
-   git clone https://github.com/isaacszf/TorrentSearch.git
+   git clone https://github.com/isaacszf/TorrentFinder.git
   ```
 
 2. Run the following commands
