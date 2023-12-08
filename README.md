@@ -1,5 +1,3 @@
-# TorrentFinder
-
 <div align="center">
   <img src=".github/icon.png" alt="TorrentFinder Icon" width="100" height="100">
 </div>
