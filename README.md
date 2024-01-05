@@ -44,6 +44,7 @@
 2. Run the following commands
 
   ```bash
+    npm i
     npm run build
     npm run gui
   ```
