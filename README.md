@@ -1,10 +1,4 @@
 <div align="center">
-  <img src=".github/icon.png" alt="TorrentFinder Icon" width="100" height="100">
-</div>
-
-&nbsp;
-
-<div align="center">
   TorrentFinder is a desktop app that searches for all available torrents based on specific terms across various torrent sites.
 </div>
 
